@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mega quizz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcomeTitle">bienvenu dans le mega quizz</string>
+    <string name="askUsername">quel est votre nom</string>
+    <string name="typeHere">tapez ici</string>
+    <string name="play">jouer</string>
+</resources>

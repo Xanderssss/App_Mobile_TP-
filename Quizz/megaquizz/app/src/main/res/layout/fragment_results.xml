@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"
+    android:padding="20dp">
+
+    <!-- Titre des résultats -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Résultats du Quiz"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- ScrollView pour gérer les résultats même en cas de longue liste -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="#1E1E1E"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/resultsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#E0E0E0"
+            android:padding="16dp"
+            android:lineSpacingExtra="8dp"
+            android:textAlignment="center"/>
+    </ScrollView>
+
+    <!-- Bouton Rejouer stylisé -->
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔄 Rejouer"
+        android:padding="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:drawablePadding="10dp"/>
+</LinearLayout>
+
+
+
